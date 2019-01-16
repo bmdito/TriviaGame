@@ -1,4 +1,48 @@
-#wrapper {
+
+
+.jumbo {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2BNoIJx0GyVrrcFtbpPh8R1twgN_apaKCv3VCD29UfWm_gsMw);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top:25%;
+}
+.questions {
+    margin-top: 5%;
+    font-weight:bolder;
+    font-size: 25px;
+}
+
+.answers {
+    margin-top:4%;
+    font-size: 15px;
+}
+
+#showAnswer {
+    font-size:30px;
+    margin-top:20%;
+    
+}
+
+.temp {
+    color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #wrapper {
     
     display:grid;
     grid-gap: 1em;
@@ -28,4 +72,4 @@
 #footer {
     background-color:gray;
     grid-area:4/1/6/6;
-}
+} */
