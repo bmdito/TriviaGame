@@ -220,7 +220,7 @@ $("#res").on("click", function(){
     correctAnswers = 0;
     wrongAnswers = 0;
     unanswered = 0;
-    questionCounter = 6;
+    questionCounter = 0;
     answerCounter = 0;
     rightAnswerCounter = 0;
     timeLeft = 30;
