@@ -20,11 +20,13 @@
        
         <div class="container">
             <div class="jumbotron text-center jumbo">
-                <h1>Trivia Game</h1>
+                <h1> 'MuRICA : Trivia Game</h1>
                 <div>
                     <button type="button" class="btn btn-success">Lets get Started!</button>
                 </div>
             </div>
+            <div id="timer" class="text-center timeStyle"></div>
+
             <div id="gameArea">
                 <div id="question" class="text-center questions"></div>
                 <div id="answerA" class="text-center answers"></div>
@@ -34,6 +36,13 @@
 
             </div>
             <div id="showAnswer" class="text-center"></div>
+            <div id="results">
+                <div id="title">'MuRICA : Trivia Game: Results</div>
+                <div id="correct" class="result yup"></div>
+                <div id="wrong" class="result nope"></div>
+                <div id="noAnswer" class="result none"></div> 
+            </div>
+            <div id="res" class="text-center"></div>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
