@@ -2,7 +2,7 @@
 
 var questionArray = [
 
-"What year did the U.S. land on the Moon",
+"What year did the U.S. land on the Moon?",
 "Where was the first shot of the American Revolutionary War fired?",
 "The Louisiana Purchase was made when the US bought 827,000 sq miles of land from _________ for $ ________? ",
 "The Statue of Liberty was gifted to the United States by which Country?",
@@ -18,7 +18,7 @@ var answerArray = [
     ["Concord", "Saratoga", "New York", "Lexington"],
     ["Russia, 10 million", "Spain, 23 million", "France, 15 million", "Sioux Nation, beads & rifles"],
     ["Italy", "Great Britain", "Spain", "France"],
-    ["Delaware", "Massachusetts", "Boston", "Philadelphia"],
+    ["St. Louis", "New York", "Boston", "Philadelphia"],
     ["Richard Nixon", "Lyndon Baines Johnson", "Gerald Ford", "Your Mom"],
     ["Thomas Jefferson", "Patrick Henry", "John Adams", "John Ellington"],
     ["1861", "1873", "1776", "1883"]
@@ -45,6 +45,7 @@ var selectedAnswer;
 $(window).on("load", function(){
     $("#gameArea").hide();
     $("#results").hide();
+    $("#showAnswer").hide();
 })
 
 // start quiz, clear jumbo
@@ -206,6 +207,8 @@ function finalResults (){
    $("#noAnswer").text("Unanswered: "+unanswered);
    var restartClick = $("<button>Restart Game!</button>").attr("class", "btn btn-success restart" );
    $("#res").append(restartClick);
+   
+   
 }
 
 // reset the game

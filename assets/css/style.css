@@ -1,5 +1,9 @@
 
 
+body{
+    background-image:URL("../images/America.jpg");
+}
+
 h1 {
     color:white;
     font-size:45px;
@@ -11,12 +15,20 @@ h1 {
     background-size: cover;
     margin-top:15%;
     height:500px;
+    border-radius:25px;
 }
 .questions {
     margin-top: 5%;
     font-weight:bolder;
-    font-size: 25px;
+    font-size: 30px;
     border-radius:25px;
+    color:rgb(61, 61, 184);
+    background-color: white;
+    border: 3px solid blue;
+    margin-right:15%;
+    margin-left:15%;
+    padding:3%;
+
 }
 
 .answers {
@@ -24,7 +36,7 @@ h1 {
     font-size: 20px;
     background-color:gray;
     padding:5px;
-    border:2px solid blue;
+    border: 3px solid blue;
     margin-right:20%;
     margin-left:20%;
     font-weight:bold;
@@ -56,7 +68,13 @@ h1 {
     margin-top:20%;
     
 }
-
+#timer{
+    background-color:white;
+    margin-left:45%;
+    margin-right:45%;
+    border:2px solid blue;
+    border-radius:25px;
+}
 .temp {
     color:blue;
 }
@@ -67,11 +85,20 @@ h1 {
     color: red;
 }
 
+#showAnswer {
+    border: 3px solid blue;
+    background-color:white;
+    border-radius:25px;
+    margin-right:20%;
+    margin-left:20%;
+    padding:4%;
+}
+
 /* inidivual result lines */
 .result {
  margin-top:3%;
  font-size:25px;
- border: 2px solid black;
+ border: 3px solid blue;
  background-color:white;
  border-radius:25px;
  margin-right:20%;
@@ -88,10 +115,11 @@ h1 {
 /* Parent div of results */
 
 #results {
-    border: 2px solid black;
+    border: 3px solid blue;
     margin-top:4%;
     padding:2%;
     background-color:lightslategray;
+    border-radius:25px;
 }
 
 .yup {
